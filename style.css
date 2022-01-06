@@ -149,7 +149,7 @@ h3 {
     text-align: center;
    }
 .menu{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     padding: 50px;
     border-radius: 30px;
     margin-bottom: 20px;
@@ -176,7 +176,7 @@ h2 {
 /* Features */
 
 /*menu */
-.link-menu{
+/* .link-menu{
     background-color: antiquewhite;
-}
+} */
 

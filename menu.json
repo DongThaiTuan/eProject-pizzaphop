@@ -1,0 +1,193 @@
+{
+    "menu": [
+        {
+            "id": "s1",
+            "name": "Seafood Pizza 1",
+            "price": 11.35,
+            "img": "seafood_type_1.png",
+            "food": true
+        },
+        {
+            "id": "s2",
+            "name": "Seafood Pizza 2",
+            "price": 11.48,
+            "img": "seafood_type_2.png",
+            "food": true
+        },
+        {
+            "id": "s3",
+            "name": "Seafood Pizza 3",
+            "price": 11.26,
+            "img": "seafood_type_3.png",
+            "food": true
+        },
+        {
+            "id": "s4",
+            "name": "Seafood Pizza 4",
+            "price": 11.26,
+            "img": "seafood_type_4.png",
+            "food": true
+        },
+        {
+            "id": "s5",
+            "name": "Mexid Pizza 1",
+            "price": 12.00,
+            "img": "pizza_mixed_1.png",
+            "food": true
+        },
+        {
+            "id": "s6",
+            "name": "Mexid Pizza 2",
+            "price": 12.00,
+            "img": "pizza_mixed_2.png",
+            "food": true
+        },
+        {
+            "id": "s7",
+            "name": "Mexid Pizza 3",
+            "price": 12.00,
+            "img": "pizza_mixed_3.png",
+            "food": true
+        },
+        {
+            "id": "s8",
+            "name": "Mexid Pizza 4",
+            "price": 12.00,
+            "img": "pizza_mixed_4.png",
+            "food": true
+        },
+        {
+            "id": "s9",
+            "name": "Mexid Pizza 5",
+            "price": 12.00,
+            "img": "pizza_mixed_5.png",
+            "food": true
+        },
+        {
+            "id": "s10",
+            "name": "Vegetable Verescent Pizza",
+            "price": 10.00,
+            "img": "vegetable_verescent_pizza.png",
+            "food": true
+        },
+        {
+            "id": "s11",
+            "name": "Slow Cooker Pizza Chicken",
+            "price": 10.00,
+            "img": "slow_cooker_pizza _chicken.png",
+            "food": true
+        },
+        {
+            "id": "s12",
+            "name": "Pizza Meat",
+            "price": 10.00,
+            "img": "pizza_meat.png",
+            "food": true
+        },
+        {
+            "id": "s13",
+            "name": "Pizza Chicken",
+            "price": 10.00,
+            "img": "pizza_chicken.png",
+            "food": true
+        },
+        {
+            "id": "s14",
+            "name": "Pizza Pestro",
+            "price": 10.00,
+            "img": "pizza_pestro.png",
+            "food": true
+        },
+        {
+            "id": "s15",
+            "name": "Galic Bread",
+            "price": 2.5,
+            "img": "galic_bread.png",
+            "food": false
+        },
+        {
+            "id": "s16",
+            "name": "Toasted Bread",
+            "price": 3.0,
+            "img": "toasted_bread.png",
+            "food": false
+        },
+        {
+            "id": "s17",
+            "name": "French Fries",
+            "price": 2.0,
+            "img": "french_fries.png",
+            "food": false
+        },
+        {
+            "id": "s18",
+            "name": "Chicken Without Frost",
+            "price": 2.0,
+            "img": "chicken_without_frost.png",
+            "food": false
+        },
+        {
+            "id": "s19",
+            "name": "Fried Chicken",
+            "price": 1,
+            "img": "fried_chicken.png",
+            "food": false
+        },
+        {
+            "id": "s20",
+            "name": "Fried Squid",
+            "price": "0.5",
+            "img": "fried_squid.png",
+            "food": false
+        },
+        {
+            "id": "s21",
+            "name": "Pepsi",
+            "price": 1,
+            "img": "pepsi.png",
+            "food": false
+        },
+        {
+            "id": "s22",
+            "name": "Seven Up",
+            "price": 1,
+            "img": "sevenup.png",
+            "food": false
+        },
+        {
+            "id": "s23",
+            "name": "Aquafina",
+            "price": 0.5,
+            "img": "aquafina.png",
+            "type": false
+        },
+        {
+            "id": "s24",
+            "name": "Pepsi Zero Calo",
+            "price": 1.2,
+            "img": "pepsizerocalo.png",
+            "type": false
+        },
+        {
+            "id": "s25",
+            "name": "Tiger",
+            "price": 1,
+            "img": "tiger.png",
+            "type": false
+        },
+        {
+            "id": "s26",
+            "name": "333",
+            "price": 1,
+            "img": "333.png",
+            "type": false
+        },
+        {
+            "id": "s27",
+            "name": "Heniken",
+            "price": 1,
+            "img": "heniken.png",
+            "type": false
+        }
+    ]
+}

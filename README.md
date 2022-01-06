@@ -12,7 +12,7 @@ Project title: Pizza Shop
 - Đổng Thái Tuấn ( TuanDTTS2109007@fpt.edu.vn) Student1322489
     
     
-Published: https://dongthaituan.github.io/eProject-pizzaphop
+Published: https://dongthaituan.github.io/eProject-pizzaphop/
      
      
      

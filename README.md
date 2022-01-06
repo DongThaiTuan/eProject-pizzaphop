@@ -13,6 +13,7 @@ Project title: Pizza Shop
     
     
 Published: https://dongthaituan.github.io/eProject-pizzaphop/home.html
+eProject report link:https://github.com/DongThaiTuan/eProject-pizzaphop/tree/master/Document
 
 
 

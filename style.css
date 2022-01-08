@@ -11,9 +11,11 @@
   .nav-item{
     padding: 15px;
   }
-  .navbar {
-    background-color: rgb(0, 0, 0);
+  .navbar{
+    background-color:rgb(83, 128, 0);
+    text-align: center;
   }
+
   /* end header */
 
   /* start introduce */
@@ -47,6 +49,7 @@
     border-radius: 20px;
     background: wheat;
 }
+
 /* end body */
 
 /* start footer */
@@ -143,13 +146,14 @@ h3 {
     background-color: whitesmoke;
     border-radius: 20px;
     text-align: center;
+    border: bisque thin solid;
 }
 .menu_item{
     background-color: whitesmoke;
     text-align: center;
    }
 .menu{
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     padding: 50px;
     border-radius: 30px;
     margin-bottom: 20px;
@@ -176,7 +180,26 @@ h2 {
 /* Features */
 
 /*menu */
-/* .link-menu{
+
+.link-menu{
     background-color: antiquewhite;
-} */
+}
+
+.website-creator {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.website {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.website-creator a {
+    padding: 5px;
+}
 

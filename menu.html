@@ -19,18 +19,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
 </head>
 <style>
-   
+
 </style>
 
 <body ng-app="myApp">
 
     <div class="navbar navbar-expand-sm ">
         <a class="navbar-brand" href="#">
-            <img src="image_pizza/logo/Pizza-logo-vector-PNG-removebg-preview.png" alt=""
-                style="width:60px;">
+            <img src="image_pizza/logo/Pizza-logo-vector-PNG-removebg-preview.png" alt="" style="width:60px;">
         </a>
 
         <ul class=" navbar-nav">
@@ -52,36 +50,16 @@
         </ul>
     </div>
 
-    <div class="link-menu">
-        <!-- <a href="#!">Menu Shop</a> -->
-        <a href="#!Cart">Order</a>
+     <div class="link-menu">
+        <a href="#/!">Menu</a>
+        <a href="#!Pizza">Pizza</a>
+        <a href="#!Dessert">Dessert</a>
+        <a href="#!Bread">Galic Bread</a>
+        <a href="#!Bevenger">Bevenger</a>
+        <a href="#!Cart"><img src="image_pizza/icon.png"></a>
     </div>
 
     <div ng-view></div>
-
-    <div class="container">
-        <h3>Enter food name: <input type="text" ng-model='food'></h3>
-    </div>
-    <div class="container menu">
-        <div ng-controller="myMenu" class="row">
-            <ul ng-repeat="item in menu|filter:food" class="col-sm-3 col-md-3 item">
-
-                <div class="img-menu"> 
-                    <img src="image_pizza/{{item.img}}" width="100%"><br>    
-                    <h6>{{item.name}} </h6>
-                    <h6>{{item.price}} $ </h6> <br>
-                    
-                    <select class="menu_item" name="" id="" ng-show={{item.food}}>
-                        <option value="Big">BIG</option>
-                        <option value="Medium">MEDIUM</option>
-                        <option value="Small">SMALL</option>
-                    </select><br><br>
-                    <input type="button" value="Add To" ng-click="addCart($index)" class="btn btn-success">
-                    <br><br>
-                </div>
-            </ul>
-        </div>
-    </div>
 
     <!-- start footer -->
     <div class="row footer">

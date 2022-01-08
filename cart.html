@@ -1,10 +1,27 @@
-
-<div>
+<style>
+    .form-group {
+        color: red;
+    }
+    #confirm {
+        width: 50%;
+        margin: auto;
+        padding: 5px;
+    }
+    .buy{
+        background-color: rgb(15, 161, 15);
+        color: yellow;
+    }
+    .deleter{
+        background-color: rgb(15, 161, 15);
+        color: yellow;
+    }
+</style>
+<div style="background-color: rgb(234, 254, 255);">
     <div ng-controller="myCTR">
         <h3 style="text-align: center;">Your Detail Order</h3>
         <hr>
         <table class="table table-hover">
-            <thead>
+            <thead >
                 <tr>
                     <th>No.</th>
                     <th>Name</th>
@@ -14,14 +31,14 @@
                     <th>Action</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody >
                 <tr ng-repeat="item in cart">
                     <td>{{$index+1}}</td>
                     <td>{{item.name}}</td>
                     <td class="number">{{item.price}}</td>
                     <td class="number">{{item.qty}}</td>
                     <td class="number">{{item.qty*item.price|currency}}</td>
-                    <td><input type="button" value="Delete" ng-click="remove($index)"></td>
+                    <td><input type="button" value="Delete" ng-click="remove($index)" class="deleter"></td>
                 </tr>
                 <tr>
                     <td colspan="4" style="text-align: right">Total Amount: </td>
@@ -29,33 +46,32 @@
 
                 </tr>
                 <tr>
-                    <th colspan="5" style="text-align: right"><input type="button" value="Buy Now" ng-click="Buy()"></th>
+                    <th colspan="5" style="text-align: right;"><input type="button" value="Buy Now" ng-click="Buy()" class="buy">
+                    </th>
                 </tr>
             </tbody>
         </table>
         <div id="confirm" ng-show="isShow">
-            <h3>Customer Information!</h3>
+            <h3 style="text-align: center; color: salmon;">Customer Information!</h3>
             <form action="" ng-submit="thank()">
                 <div class="form-group">
-                    <label for="">Name</label>
+                    <label for="">Name *</label>
                     <input type="text" name="txtName" required placeholder="Name" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="">Email</label>
+                    <label for="">Email *</label>
                     <input type="text" name="txtEmail" required placeholder="Email" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="">Phone Number</label>
+                    <label for="">Phone Number *</label>
                     <input type="text" name="txtPhone" required placeholder="Phone" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="">Address</label>
-                    <input type="text" name="address" required placeholder="address" class="form-control">
+                    <label for="">Address *</label>
+                    <input type="text" name="address" required placeholder="Address" class="form-control">
                 </div>
                 <div class="form-group">
                     <input type="submit" value="Submit" class="btn btn-success">
                 </div>
             </form>
         </div>
-
-

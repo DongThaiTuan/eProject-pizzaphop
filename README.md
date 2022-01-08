@@ -15,3 +15,5 @@ Link:
 -Published: https://dongthaituan.github.io/eProject-pizzaphop/home.html
 
 -eProject report link:https://github.com/DongThaiTuan/eProject-pizzaphop/tree/master/Document
+
+===> Thank you for spending your time to look at our work.<===
